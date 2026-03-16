@@ -1,0 +1,10 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#12161E"/>
+  <circle cx="230" cy="180" r="180" fill="#E98543" fill-opacity="0.16"/>
+  <circle cx="960" cy="130" r="170" fill="#E0BE6B" fill-opacity="0.18"/>
+  <circle cx="720" cy="450" r="220" fill="#79C9C2" fill-opacity="0.1"/>
+  <circle cx="980" cy="470" r="120" fill="#C97873" fill-opacity="0.08"/>
+  <text x="90" y="260" fill="#F7F4EE" font-family="Arial, sans-serif" font-size="64" font-weight="700">AstraFlow</text>
+  <text x="90" y="340" fill="#F7F4EE" font-family="Arial, sans-serif" font-size="64" font-weight="700">Dimensions 2026</text>
+  <text x="90" y="410" fill="#D8D2C8" font-family="Arial, sans-serif" font-size="28">Fictional VTuber event special site + admin dashboard</text>
+</svg>

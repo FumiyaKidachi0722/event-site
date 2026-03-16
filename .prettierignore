@@ -1,0 +1,10 @@
+.next
+out
+build
+coverage
+node_modules
+public
+pnpm-lock.yaml
+package-lock.json
+*.log
+src/components/ui

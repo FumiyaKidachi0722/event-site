@@ -1,0 +1,760 @@
+{
+  "currentEventId": "astraflow-2026",
+  "admins": [
+    {
+      "uid": "demo-admin",
+      "email": "test-admin@example.test",
+      "name": "テスト管理者A / Test Admin A",
+      "role": "owner"
+    }
+  ],
+  "events": {
+    "astraflow-2026": {
+      "event": {
+        "id": "astraflow-2026",
+        "slug": "test-event-sample-2026",
+        "status": "published",
+        "phase": "before",
+        "title": {
+          "ja": "【テストデータ】イベントサンプル 2026",
+          "en": "[TEST DATA] Event Sample 2026"
+        },
+        "subtitle": {
+          "ja": "これはポートフォリオ確認用のテスト表示です。",
+          "en": "This is test-only copy for portfolio verification."
+        },
+        "summary": {
+          "ja": "このページの文言・出演者・ニュースはすべてモックです。実在のイベント情報ではなく、テスト用ダミーデータとして配置しています。",
+          "en": "All copy, talents, and news on this page are mock content. They are intentionally dummy values for testing and portfolio review."
+        },
+        "venue": {
+          "ja": "テスト会場 / Dummy Venue",
+          "en": "Test Venue / Dummy Venue"
+        },
+        "format": {
+          "ja": "テスト配信 / Dummy Streaming",
+          "en": "Test Streaming / Dummy Streaming"
+        },
+        "highlights": [
+          {
+            "ja": "テスト用ハイライト 1",
+            "en": "Test highlight 1"
+          },
+          {
+            "ja": "テスト用ハイライト 2",
+            "en": "Test highlight 2"
+          },
+          {
+            "ja": "テスト用ハイライト 3",
+            "en": "Test highlight 3"
+          }
+        ],
+        "participationSteps": [
+          {
+            "ja": "テスト手順 1: ダミーチケットを確認",
+            "en": "Test step 1: review the dummy ticket"
+          },
+          {
+            "ja": "テスト手順 2: ダミー案内を確認",
+            "en": "Test step 2: review the dummy guide"
+          },
+          {
+            "ja": "テスト手順 3: ダミー視聴ページへ移動",
+            "en": "Test step 3: open the dummy watch page"
+          }
+        ],
+        "startAt": "2026-06-20T09:00:00.000Z",
+        "endAt": "2026-06-21T13:00:00.000Z",
+        "heroImageUrl": "/assets/hero-astraflow.svg",
+        "ogImageUrl": "/assets/og-astraflow.svg",
+        "primaryCta": {
+          "label": {
+            "ja": "テスト購入ボタン",
+            "en": "Test Purchase CTA"
+          },
+          "url": "https://example.com/astraflow/tickets"
+        },
+        "secondaryCta": {
+          "label": {
+            "ja": "テスト案内ボタン",
+            "en": "Test Guide CTA"
+          },
+          "url": "https://example.com/astraflow/watch"
+        },
+        "hashtags": ["#TEST_EVENT_SAMPLE", "#DUMMY_CONTENT"],
+        "locales": ["ja", "en"],
+        "emergencyBanner": {
+          "enabled": true,
+          "tone": "info",
+          "text": {
+            "ja": "これはテスト用のインフォバーです。実際の告知ではありません。",
+            "en": "This information bar is test-only and not a real announcement."
+          },
+          "link": {
+            "label": {
+              "ja": "テスト導線へ",
+              "en": "Open test guide"
+            },
+            "url": "/ja/ticket"
+          }
+        },
+        "createdAt": "2026-03-01T00:00:00.000Z",
+        "updatedAt": "2026-03-16T00:00:00.000Z"
+      },
+      "stages": [
+        {
+          "id": "mainstage",
+          "name": {
+            "ja": "テストステージA",
+            "en": "Test Stage A"
+          },
+          "description": {
+            "ja": "これはテスト用ステージ 1 の説明です。",
+            "en": "This is the description for test stage 1."
+          },
+          "color": "#ff8f6b",
+          "sortOrder": 1,
+          "status": "published",
+          "createdAt": "2026-03-01T00:00:00.000Z",
+          "updatedAt": "2026-03-16T00:00:00.000Z"
+        },
+        {
+          "id": "constellation",
+          "name": {
+            "ja": "テストステージB",
+            "en": "Test Stage B"
+          },
+          "description": {
+            "ja": "これはテスト用ステージ 2 の説明です。",
+            "en": "This is the description for test stage 2."
+          },
+          "color": "#50d2d7",
+          "sortOrder": 2,
+          "status": "published",
+          "createdAt": "2026-03-01T00:00:00.000Z",
+          "updatedAt": "2026-03-16T00:00:00.000Z"
+        },
+        {
+          "id": "afterglow",
+          "name": {
+            "ja": "テストステージC",
+            "en": "Test Stage C"
+          },
+          "description": {
+            "ja": "これはテスト用ステージ 3 の説明です。",
+            "en": "This is the description for test stage 3."
+          },
+          "color": "#8a7dff",
+          "sortOrder": 3,
+          "status": "published",
+          "createdAt": "2026-03-01T00:00:00.000Z",
+          "updatedAt": "2026-03-16T00:00:00.000Z"
+        }
+      ],
+      "talents": [
+        {
+          "id": "liora",
+          "slug": "test-talent-1",
+          "name": {
+            "ja": "テスト太郎",
+            "en": "Test Taro"
+          },
+          "shortBio": {
+            "ja": "これは テスト太郎 のテスト用プロフィールです。",
+            "en": "This is the test profile for Test Taro."
+          },
+          "fullBio": {
+            "ja": "テスト太郎 は表示確認のために置かれたダミータレントです。本文も実運用ではなく、モックデータであることを明示しています。",
+            "en": "Test Taro is a dummy talent record used for UI verification. This body copy intentionally marks the entry as mock content."
+          },
+          "imageUrl": "/assets/talent-liora.svg",
+          "unit": "TEST UNIT A",
+          "tags": ["test", "dummy", "slot-1"],
+          "appearanceDayKeys": ["day1", "day2"],
+          "xUrl": "https://example.test/talent-1/x",
+          "youtubeUrl": "https://example.test/talent-1/youtube",
+          "sortOrder": 1,
+          "status": "published",
+          "createdAt": "2026-03-01T00:00:00.000Z",
+          "updatedAt": "2026-03-16T00:00:00.000Z"
+        },
+        {
+          "id": "noctis",
+          "slug": "test-talent-2",
+          "name": {
+            "ja": "サンプル花子",
+            "en": "Sample Hanako"
+          },
+          "shortBio": {
+            "ja": "これは サンプル花子 のテスト用プロフィールです。",
+            "en": "This is the test profile for Sample Hanako."
+          },
+          "fullBio": {
+            "ja": "サンプル花子 は表示確認のために置かれたダミータレントです。本文も実運用ではなく、モックデータであることを明示しています。",
+            "en": "Sample Hanako is a dummy talent record used for UI verification. This body copy intentionally marks the entry as mock content."
+          },
+          "imageUrl": "/assets/talent-noctis.svg",
+          "unit": "TEST UNIT B",
+          "tags": ["test", "dummy", "slot-2"],
+          "appearanceDayKeys": ["day1"],
+          "xUrl": "https://example.test/talent-2/x",
+          "youtubeUrl": "https://example.test/talent-2/youtube",
+          "sortOrder": 2,
+          "status": "published",
+          "createdAt": "2026-03-01T00:00:00.000Z",
+          "updatedAt": "2026-03-16T00:00:00.000Z"
+        },
+        {
+          "id": "mira",
+          "slug": "test-talent-3",
+          "name": {
+            "ja": "ダミー次郎",
+            "en": "Dummy Jiro"
+          },
+          "shortBio": {
+            "ja": "これは ダミー次郎 のテスト用プロフィールです。",
+            "en": "This is the test profile for Dummy Jiro."
+          },
+          "fullBio": {
+            "ja": "ダミー次郎 は表示確認のために置かれたダミータレントです。本文も実運用ではなく、モックデータであることを明示しています。",
+            "en": "Dummy Jiro is a dummy talent record used for UI verification. This body copy intentionally marks the entry as mock content."
+          },
+          "imageUrl": "/assets/talent-mira.svg",
+          "unit": "TEST UNIT C",
+          "tags": ["test", "dummy", "slot-3"],
+          "appearanceDayKeys": ["day2"],
+          "xUrl": "https://example.test/talent-3/x",
+          "youtubeUrl": "https://example.test/talent-3/youtube",
+          "sortOrder": 3,
+          "status": "published",
+          "createdAt": "2026-03-01T00:00:00.000Z",
+          "updatedAt": "2026-03-16T00:00:00.000Z"
+        },
+        {
+          "id": "sena",
+          "slug": "test-talent-4",
+          "name": {
+            "ja": "確認みどり",
+            "en": "Check Midori"
+          },
+          "shortBio": {
+            "ja": "これは 確認みどり のテスト用プロフィールです。",
+            "en": "This is the test profile for Check Midori."
+          },
+          "fullBio": {
+            "ja": "確認みどり は表示確認のために置かれたダミータレントです。本文も実運用ではなく、モックデータであることを明示しています。",
+            "en": "Check Midori is a dummy talent record used for UI verification. This body copy intentionally marks the entry as mock content."
+          },
+          "imageUrl": "/assets/talent-sena.svg",
+          "unit": "TEST UNIT D",
+          "tags": ["test", "dummy", "slot-4"],
+          "appearanceDayKeys": ["day1", "day2"],
+          "xUrl": "https://example.test/talent-4/x",
+          "youtubeUrl": "https://example.test/talent-4/youtube",
+          "sortOrder": 4,
+          "status": "published",
+          "createdAt": "2026-03-01T00:00:00.000Z",
+          "updatedAt": "2026-03-16T00:00:00.000Z"
+        },
+        {
+          "id": "yura",
+          "slug": "test-talent-5",
+          "name": {
+            "ja": "仮名さくら",
+            "en": "Placeholder Sakura"
+          },
+          "shortBio": {
+            "ja": "これは 仮名さくら のテスト用プロフィールです。",
+            "en": "This is the test profile for Placeholder Sakura."
+          },
+          "fullBio": {
+            "ja": "仮名さくら は表示確認のために置かれたダミータレントです。本文も実運用ではなく、モックデータであることを明示しています。",
+            "en": "Placeholder Sakura is a dummy talent record used for UI verification. This body copy intentionally marks the entry as mock content."
+          },
+          "imageUrl": "/assets/talent-yura.svg",
+          "unit": "TEST UNIT E",
+          "tags": ["test", "dummy", "slot-5"],
+          "appearanceDayKeys": ["day2"],
+          "xUrl": "https://example.test/talent-5/x",
+          "youtubeUrl": "https://example.test/talent-5/youtube",
+          "sortOrder": 5,
+          "status": "published",
+          "createdAt": "2026-03-01T00:00:00.000Z",
+          "updatedAt": "2026-03-16T00:00:00.000Z"
+        }
+      ],
+      "sessions": [
+        {
+          "id": "session-01",
+          "dayKey": "day1",
+          "stageId": "mainstage",
+          "title": {
+            "ja": "【テスト】セッション 1",
+            "en": "[TEST] Session 1"
+          },
+          "description": {
+            "ja": "これはテスト用セッション 1 の説明です。",
+            "en": "This is the description for test session 1."
+          },
+          "startAt": "2026-06-20T09:00:00.000Z",
+          "endAt": "2026-06-20T09:40:00.000Z",
+          "talentIds": ["liora", "noctis", "sena"],
+          "watchUrl": "https://example.test/session-1",
+          "tags": ["test", "dummy-1"],
+          "sortOrder": 1,
+          "status": "published",
+          "createdAt": "2026-03-01T00:00:00.000Z",
+          "updatedAt": "2026-03-16T00:00:00.000Z"
+        },
+        {
+          "id": "session-02",
+          "dayKey": "day1",
+          "stageId": "constellation",
+          "title": {
+            "ja": "【テスト】セッション 2",
+            "en": "[TEST] Session 2"
+          },
+          "description": {
+            "ja": "これはテスト用セッション 2 の説明です。",
+            "en": "This is the description for test session 2."
+          },
+          "startAt": "2026-06-20T10:00:00.000Z",
+          "endAt": "2026-06-20T10:45:00.000Z",
+          "talentIds": ["noctis", "mira"],
+          "watchUrl": "https://example.test/session-2",
+          "tags": ["test", "dummy-2"],
+          "sortOrder": 2,
+          "status": "published",
+          "createdAt": "2026-03-01T00:00:00.000Z",
+          "updatedAt": "2026-03-16T00:00:00.000Z"
+        },
+        {
+          "id": "session-03",
+          "dayKey": "day1",
+          "stageId": "mainstage",
+          "title": {
+            "ja": "【テスト】セッション 3",
+            "en": "[TEST] Session 3"
+          },
+          "description": {
+            "ja": "これはテスト用セッション 3 の説明です。",
+            "en": "This is the description for test session 3."
+          },
+          "startAt": "2026-06-20T11:00:00.000Z",
+          "endAt": "2026-06-20T11:40:00.000Z",
+          "talentIds": ["liora", "yura"],
+          "watchUrl": "https://example.test/session-3",
+          "tags": ["test", "dummy-3"],
+          "sortOrder": 3,
+          "status": "published",
+          "createdAt": "2026-03-01T00:00:00.000Z",
+          "updatedAt": "2026-03-16T00:00:00.000Z"
+        },
+        {
+          "id": "session-04",
+          "dayKey": "day1",
+          "stageId": "afterglow",
+          "title": {
+            "ja": "【テスト】セッション 4",
+            "en": "[TEST] Session 4"
+          },
+          "description": {
+            "ja": "これはテスト用セッション 4 の説明です。",
+            "en": "This is the description for test session 4."
+          },
+          "startAt": "2026-06-20T12:10:00.000Z",
+          "endAt": "2026-06-20T12:40:00.000Z",
+          "talentIds": ["liora", "noctis"],
+          "watchUrl": "https://example.test/session-4",
+          "tags": ["test", "dummy-4"],
+          "sortOrder": 4,
+          "status": "published",
+          "createdAt": "2026-03-01T00:00:00.000Z",
+          "updatedAt": "2026-03-16T00:00:00.000Z"
+        },
+        {
+          "id": "session-05",
+          "dayKey": "day2",
+          "stageId": "mainstage",
+          "title": {
+            "ja": "【テスト】セッション 5",
+            "en": "[TEST] Session 5"
+          },
+          "description": {
+            "ja": "これはテスト用セッション 5 の説明です。",
+            "en": "This is the description for test session 5."
+          },
+          "startAt": "2026-06-21T09:10:00.000Z",
+          "endAt": "2026-06-21T09:50:00.000Z",
+          "talentIds": ["mira"],
+          "watchUrl": "https://example.test/session-5",
+          "tags": ["test", "dummy-5"],
+          "sortOrder": 5,
+          "status": "published",
+          "createdAt": "2026-03-01T00:00:00.000Z",
+          "updatedAt": "2026-03-16T00:00:00.000Z"
+        },
+        {
+          "id": "session-06",
+          "dayKey": "day2",
+          "stageId": "constellation",
+          "title": {
+            "ja": "【テスト】セッション 6",
+            "en": "[TEST] Session 6"
+          },
+          "description": {
+            "ja": "これはテスト用セッション 6 の説明です。",
+            "en": "This is the description for test session 6."
+          },
+          "startAt": "2026-06-21T10:10:00.000Z",
+          "endAt": "2026-06-21T11:00:00.000Z",
+          "talentIds": ["sena", "liora"],
+          "watchUrl": "https://example.test/session-6",
+          "tags": ["test", "dummy-6"],
+          "sortOrder": 6,
+          "status": "published",
+          "createdAt": "2026-03-01T00:00:00.000Z",
+          "updatedAt": "2026-03-16T00:00:00.000Z"
+        },
+        {
+          "id": "session-07",
+          "dayKey": "day2",
+          "stageId": "mainstage",
+          "title": {
+            "ja": "【テスト】セッション 7",
+            "en": "[TEST] Session 7"
+          },
+          "description": {
+            "ja": "これはテスト用セッション 7 の説明です。",
+            "en": "This is the description for test session 7."
+          },
+          "startAt": "2026-06-21T11:20:00.000Z",
+          "endAt": "2026-06-21T12:30:00.000Z",
+          "talentIds": ["liora", "noctis", "mira", "sena", "yura"],
+          "watchUrl": "https://example.test/session-7",
+          "tags": ["test", "dummy-7"],
+          "sortOrder": 7,
+          "status": "published",
+          "createdAt": "2026-03-01T00:00:00.000Z",
+          "updatedAt": "2026-03-16T00:00:00.000Z"
+        },
+        {
+          "id": "session-08",
+          "dayKey": "day2",
+          "stageId": "afterglow",
+          "title": {
+            "ja": "【テスト】セッション 8",
+            "en": "[TEST] Session 8"
+          },
+          "description": {
+            "ja": "これはテスト用セッション 8 の説明です。",
+            "en": "This is the description for test session 8."
+          },
+          "startAt": "2026-06-21T12:40:00.000Z",
+          "endAt": "2026-06-21T13:00:00.000Z",
+          "talentIds": ["yura", "mira"],
+          "watchUrl": "https://example.test/session-8",
+          "tags": ["test", "dummy-8"],
+          "sortOrder": 8,
+          "status": "published",
+          "createdAt": "2026-03-01T00:00:00.000Z",
+          "updatedAt": "2026-03-16T00:00:00.000Z"
+        }
+      ],
+      "news": [
+        {
+          "id": "news-01",
+          "slug": "event-announcement",
+          "title": {
+            "ja": "【テストニュース】お知らせ 1",
+            "en": "[TEST NEWS] Update 1"
+          },
+          "summary": {
+            "ja": "これはテスト用ニュース 1 の要約です。",
+            "en": "This is the summary for test news item 1."
+          },
+          "body": {
+            "ja": "# テストニュース 1\n\nこの本文はダミーです。表示確認用のモックデータとして登録しています。",
+            "en": "# Test News 1\n\nThis body is dummy content registered for UI verification."
+          },
+          "thumbnailUrl": "/assets/news-announcement.svg",
+          "category": "announcement",
+          "status": "published",
+          "publishedAt": "2026-03-05T03:00:00.000Z",
+          "pinned": true,
+          "relatedTalentIds": ["liora", "mira"],
+          "relatedSessionIds": ["session-01"],
+          "createdAt": "2026-03-05T03:00:00.000Z",
+          "updatedAt": "2026-03-05T03:00:00.000Z"
+        },
+        {
+          "id": "news-02",
+          "slug": "ticket-sales-open",
+          "title": {
+            "ja": "【テストニュース】お知らせ 2",
+            "en": "[TEST NEWS] Update 2"
+          },
+          "summary": {
+            "ja": "これはテスト用ニュース 2 の要約です。",
+            "en": "This is the summary for test news item 2."
+          },
+          "body": {
+            "ja": "# テストニュース 2\n\nこの本文はダミーです。表示確認用のモックデータとして登録しています。",
+            "en": "# Test News 2\n\nThis body is dummy content registered for UI verification."
+          },
+          "thumbnailUrl": "/assets/news-ticket.svg",
+          "category": "ticket",
+          "status": "published",
+          "publishedAt": "2026-03-08T04:00:00.000Z",
+          "pinned": true,
+          "relatedTalentIds": ["liora", "yura"],
+          "relatedSessionIds": ["session-07"],
+          "createdAt": "2026-03-08T04:00:00.000Z",
+          "updatedAt": "2026-03-08T04:00:00.000Z"
+        },
+        {
+          "id": "news-03",
+          "slug": "day1-program-update",
+          "title": {
+            "ja": "【テストニュース】お知らせ 3",
+            "en": "[TEST NEWS] Update 3"
+          },
+          "summary": {
+            "ja": "これはテスト用ニュース 3 の要約です。",
+            "en": "This is the summary for test news item 3."
+          },
+          "body": {
+            "ja": "# テストニュース 3\n\nこの本文はダミーです。表示確認用のモックデータとして登録しています。",
+            "en": "# Test News 3\n\nThis body is dummy content registered for UI verification."
+          },
+          "thumbnailUrl": "/assets/news-schedule.svg",
+          "category": "streaming",
+          "status": "published",
+          "publishedAt": "2026-03-10T01:00:00.000Z",
+          "pinned": false,
+          "relatedTalentIds": ["noctis", "sena"],
+          "relatedSessionIds": ["session-01", "session-02", "session-04"],
+          "createdAt": "2026-03-10T01:00:00.000Z",
+          "updatedAt": "2026-03-10T01:00:00.000Z"
+        },
+        {
+          "id": "news-04",
+          "slug": "visual-goods-lineup",
+          "title": {
+            "ja": "【テストニュース】お知らせ 4",
+            "en": "[TEST NEWS] Update 4"
+          },
+          "summary": {
+            "ja": "これはテスト用ニュース 4 の要約です。",
+            "en": "This is the summary for test news item 4."
+          },
+          "body": {
+            "ja": "# テストニュース 4\n\nこの本文はダミーです。表示確認用のモックデータとして登録しています。",
+            "en": "# Test News 4\n\nThis body is dummy content registered for UI verification."
+          },
+          "thumbnailUrl": "/assets/news-goods.svg",
+          "category": "goods",
+          "status": "published",
+          "publishedAt": "2026-03-12T06:30:00.000Z",
+          "pinned": false,
+          "relatedTalentIds": ["mira", "yura"],
+          "relatedSessionIds": [],
+          "createdAt": "2026-03-12T06:30:00.000Z",
+          "updatedAt": "2026-03-12T06:30:00.000Z"
+        },
+        {
+          "id": "news-05",
+          "slug": "hashtag-campaign-start",
+          "title": {
+            "ja": "【テストニュース】お知らせ 5",
+            "en": "[TEST NEWS] Update 5"
+          },
+          "summary": {
+            "ja": "これはテスト用ニュース 5 の要約です。",
+            "en": "This is the summary for test news item 5."
+          },
+          "body": {
+            "ja": "# テストニュース 5\n\nこの本文はダミーです。表示確認用のモックデータとして登録しています。",
+            "en": "# Test News 5\n\nThis body is dummy content registered for UI verification."
+          },
+          "thumbnailUrl": "/assets/news-campaign.svg",
+          "category": "campaign",
+          "status": "published",
+          "publishedAt": "2026-03-14T02:00:00.000Z",
+          "pinned": false,
+          "relatedTalentIds": ["liora", "mira", "sena"],
+          "relatedSessionIds": [],
+          "createdAt": "2026-03-14T02:00:00.000Z",
+          "updatedAt": "2026-03-14T02:00:00.000Z"
+        },
+        {
+          "id": "news-06",
+          "slug": "streaming-guide-update",
+          "title": {
+            "ja": "【テストニュース】お知らせ 6",
+            "en": "[TEST NEWS] Update 6"
+          },
+          "summary": {
+            "ja": "これはテスト用ニュース 6 の要約です。",
+            "en": "This is the summary for test news item 6."
+          },
+          "body": {
+            "ja": "# テストニュース 6\n\nこの本文はダミーです。表示確認用のモックデータとして登録しています。",
+            "en": "# Test News 6\n\nThis body is dummy content registered for UI verification."
+          },
+          "thumbnailUrl": "/assets/news-guide.svg",
+          "category": "streaming",
+          "status": "published",
+          "publishedAt": "2026-03-15T08:00:00.000Z",
+          "pinned": true,
+          "relatedTalentIds": ["noctis"],
+          "relatedSessionIds": ["session-08"],
+          "createdAt": "2026-03-15T08:00:00.000Z",
+          "updatedAt": "2026-03-15T08:00:00.000Z"
+        }
+      ],
+      "faqs": [
+        {
+          "id": "faq-01",
+          "category": "ticket",
+          "question": {
+            "ja": "【テストFAQ】質問 1 は何ですか？",
+            "en": "[TEST FAQ] What is question 1?"
+          },
+          "answer": {
+            "ja": "これはテスト用FAQ 1 の回答です。実際の運用回答ではありません。",
+            "en": "This is the answer for test FAQ 1. It is not a real operational response."
+          },
+          "sortOrder": 1,
+          "status": "published",
+          "createdAt": "2026-03-01T00:00:00.000Z",
+          "updatedAt": "2026-03-16T00:00:00.000Z"
+        },
+        {
+          "id": "faq-02",
+          "category": "streaming",
+          "question": {
+            "ja": "【テストFAQ】質問 2 は何ですか？",
+            "en": "[TEST FAQ] What is question 2?"
+          },
+          "answer": {
+            "ja": "これはテスト用FAQ 2 の回答です。実際の運用回答ではありません。",
+            "en": "This is the answer for test FAQ 2. It is not a real operational response."
+          },
+          "sortOrder": 2,
+          "status": "published",
+          "createdAt": "2026-03-01T00:00:00.000Z",
+          "updatedAt": "2026-03-16T00:00:00.000Z"
+        },
+        {
+          "id": "faq-03",
+          "category": "streaming",
+          "question": {
+            "ja": "【テストFAQ】質問 3 は何ですか？",
+            "en": "[TEST FAQ] What is question 3?"
+          },
+          "answer": {
+            "ja": "これはテスト用FAQ 3 の回答です。実際の運用回答ではありません。",
+            "en": "This is the answer for test FAQ 3. It is not a real operational response."
+          },
+          "sortOrder": 3,
+          "status": "published",
+          "createdAt": "2026-03-01T00:00:00.000Z",
+          "updatedAt": "2026-03-16T00:00:00.000Z"
+        },
+        {
+          "id": "faq-04",
+          "category": "rules",
+          "question": {
+            "ja": "【テストFAQ】質問 4 は何ですか？",
+            "en": "[TEST FAQ] What is question 4?"
+          },
+          "answer": {
+            "ja": "これはテスト用FAQ 4 の回答です。実際の運用回答ではありません。",
+            "en": "This is the answer for test FAQ 4. It is not a real operational response."
+          },
+          "sortOrder": 4,
+          "status": "published",
+          "createdAt": "2026-03-01T00:00:00.000Z",
+          "updatedAt": "2026-03-16T00:00:00.000Z"
+        },
+        {
+          "id": "faq-05",
+          "category": "access",
+          "question": {
+            "ja": "【テストFAQ】質問 5 は何ですか？",
+            "en": "[TEST FAQ] What is question 5?"
+          },
+          "answer": {
+            "ja": "これはテスト用FAQ 5 の回答です。実際の運用回答ではありません。",
+            "en": "This is the answer for test FAQ 5. It is not a real operational response."
+          },
+          "sortOrder": 5,
+          "status": "published",
+          "createdAt": "2026-03-01T00:00:00.000Z",
+          "updatedAt": "2026-03-16T00:00:00.000Z"
+        },
+        {
+          "id": "faq-06",
+          "category": "ticket",
+          "question": {
+            "ja": "【テストFAQ】質問 6 は何ですか？",
+            "en": "[TEST FAQ] What is question 6?"
+          },
+          "answer": {
+            "ja": "これはテスト用FAQ 6 の回答です。実際の運用回答ではありません。",
+            "en": "This is the answer for test FAQ 6. It is not a real operational response."
+          },
+          "sortOrder": 6,
+          "status": "published",
+          "createdAt": "2026-03-01T00:00:00.000Z",
+          "updatedAt": "2026-03-16T00:00:00.000Z"
+        }
+      ],
+      "pages": [
+        {
+          "id": "page-about",
+          "key": "about",
+          "title": {
+            "ja": "【テストページ】about",
+            "en": "[TEST PAGE] about"
+          },
+          "body": {
+            "ja": "# テストページ: about\n\nこの本文はモックデータです。UI確認のためのダミー文です。",
+            "en": "# Test Page: about\n\nThis body is mock content used for UI review."
+          },
+          "status": "published",
+          "updatedAt": "2026-03-16T00:00:00.000Z"
+        },
+        {
+          "id": "page-ticket",
+          "key": "ticket",
+          "title": {
+            "ja": "【テストページ】ticket",
+            "en": "[TEST PAGE] ticket"
+          },
+          "body": {
+            "ja": "# テストページ: ticket\n\nこの本文はモックデータです。UI確認のためのダミー文です。",
+            "en": "# Test Page: ticket\n\nThis body is mock content used for UI review."
+          },
+          "status": "published",
+          "updatedAt": "2026-03-16T00:00:00.000Z"
+        },
+        {
+          "id": "page-guidelines",
+          "key": "guidelines",
+          "title": {
+            "ja": "【テストページ】guidelines",
+            "en": "[TEST PAGE] guidelines"
+          },
+          "body": {
+            "ja": "# テストページ: guidelines\n\nこの本文はモックデータです。UI確認のためのダミー文です。",
+            "en": "# Test Page: guidelines\n\nThis body is mock content used for UI review."
+          },
+          "status": "published",
+          "updatedAt": "2026-03-16T00:00:00.000Z"
+        }
+      ]
+    }
+  }
+}

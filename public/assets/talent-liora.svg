@@ -1,0 +1,11 @@
+<svg width="900" height="1080" viewBox="0 0 900 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="1080" fill="#FBF7F1"/>
+  <rect x="44" y="44" width="812" height="992" rx="36" stroke="#DED6CA" stroke-width="2"/>
+  <circle cx="682" cy="250" r="220" fill="#63B8B0" fill-opacity="0.2"/>
+  <circle cx="250" cy="790" r="260" fill="#EB8445" fill-opacity="0.16"/>
+  <circle cx="734" cy="798" r="122" fill="#E2B857" fill-opacity="0.16"/>
+  <rect x="72" y="116" width="132" height="10" rx="5" fill="#EAD9A7"/>
+  <rect x="72" y="148" width="88" height="8" rx="4" fill="#63B8B0"/>
+  <text x="72" y="236" fill="#171922" font-family="Arial, sans-serif" font-size="80" font-weight="700">Liora</text>
+  <text x="72" y="304" fill="#2B6E68" font-family="Arial, sans-serif" font-size="30">Nebula Core</text>
+</svg>
